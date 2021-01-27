@@ -1,0 +1,18 @@
+<!-- <p>{{ pokemon.name }}</p>
+
+<img [src]="pokemon.image" alt="" /> -->
+<mat-card class="example-card">
+  <mat-card-header>
+  
+    <mat-card-title>{{ pokemon.name }}</mat-card-title>
+    <mat-card-subtitle>Pokemon</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    [src]="pokemon.image"
+    alt="Photo of a Pokemon"
+  />
+  <mat-card-actions>
+    <button mat-raised-button color="primary" (click)=votation(pokemon) [disabled]="disactive">VOTE</button>
+  </mat-card-actions>
+</mat-card>

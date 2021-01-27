@@ -1,0 +1,10 @@
+<div *ngFor="let pokemon of listRanking" class="listadoRanking" [ngClass]="{
+    'class-leader':pokemon.cantidad>=5,
+    'class-medium':pokemon.cantidad<5 && pokemon.cantidad>=3,
+    'class-low': pokemon.cantidad<3
+}">
+     <h3>{{pokemon.name}} ➜ {{pokemon.cantidad}}</h3>
+</div> 
+
+
+  

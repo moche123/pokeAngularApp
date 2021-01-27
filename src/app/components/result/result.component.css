@@ -1,0 +1,15 @@
+.listadoRanking{
+    border:1px solid black;
+}
+.class-leader{
+    background-color: darkblue;
+    color: cornsilk;
+}
+.class-medium{
+    background-color: blue;
+    color:cornsilk;
+}
+.class-low{
+    background-color: cornflowerblue;
+    color: cornsilk;
+}

@@ -1,0 +1,6 @@
+<h1>{{selectedPokemon.name | uppercase}}</h1>
+<img [src]="selectedPokemon.image" alt="">
+<h3>height: {{selectedPokemon.height}}</h3>
+<h3>Base Experience: {{selectedPokemon.base_experience}}</h3>
+
+<button mat-raised-button color="warn" (click)="changeVote()">Vote Again</button>

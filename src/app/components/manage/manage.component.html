@@ -1,0 +1,4 @@
+<h1>Lets Vote</h1>
+<div class="container">
+    <app-card *ngFor="let pokemon of pokemons" [pokemon]="pokemon" [disactive]="disactiveButtons"  (vote)="votation($event)"></app-card>
+</div>
