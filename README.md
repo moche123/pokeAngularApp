@@ -1,4 +1,6 @@
-# Pokemon
+# Hi there Pokemon
+this is a new project made by me using Angular concepts, Input, Output, angular material and PokeApi. Don't forget to visit to enjoy programming:
+https://pokeapi.co/api/v2/pokemon
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
